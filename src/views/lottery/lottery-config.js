@@ -80,12 +80,18 @@ import { cardList, colCount, rowCount } from './lottery-config-users.js';
 //   }
 
 let img1 = require("./imgs/a.jpg");
-let img2 = require("./imgs/b.jpg");
-let img3 = require("./imgs/c.jpg");
-let img4 = require("./imgs/d.jpg");
-let img5 = require("./imgs/f.jpg");
+let img2 = require("./imgs/dn.jpg");
+let img3 = require("./imgs/ds.jpg");
+let img4 = require("./imgs/hwpd.jpg");
+let img5 = require("./imgs/watch.jpg");
 let img6 = require("./imgs/g.jpg");
-let img7 = require("./imgs/h.jpg");
+let img7 = require("./imgs/jp.jpg");
+let img8 = require("./imgs/wxrj.jpg");
+let img9 = require("./imgs/yxrj.jpg");
+let img10 = require("./imgs/pld.jpg");
+let img11 = require("./imgs/amy.jpg");
+let img12 = require("./imgs/kqzg.jpg");
+let img13 = require("./imgs/hg.jpg");
 // let img2 = require("./imgs/b.jpg");
 const lotteryConfig = {
   prizeList: [
@@ -163,21 +169,78 @@ const lotteryConfig = {
       everyTimeGet: 1,
       name: "三等奖",
       img: img7,
-      detail: "价值409 HUAWEI FreeBuds 5i",
+      detail: "价值689 CHERRY键盘",
       id: '6',
       cardListWin: [],
       round: 0
     },
     {
-      count: 6,
-      countRemain: 6,
-      everyTimeGet: 3,
+      count: 1,
+      countRemain: 1,
+      everyTimeGet: 1,
       name: "优秀奖",
-      detail: "优秀奖商品",
-      id: '优秀奖',
+      img: img8,
+      detail: "价值599 HUAWEI FreeBuds 5i",
+      id: '7',
       cardListWin: [],
       round: 0
-    }
+    },
+    {
+      count: 1,
+      countRemain: 1,
+      everyTimeGet: 1,
+      name: "优秀奖",
+      img: img9,
+      detail: "价值599  HUAWEI FreeLace Pro",
+      id: '8',
+      cardListWin: [],
+      round: 0
+    },
+    {
+      count: 1,
+      countRemain: 1,
+      everyTimeGet: 1,
+      name: "优秀奖",
+      img: img10,
+      detail: "价值599  富士instax拍立得",
+      id: '9',
+      cardListWin: [],
+      round: 0
+    },
+    {
+      count: 1,
+      countRemain: 1,
+      everyTimeGet: 1,
+      name: "优秀奖",
+      img: img11,
+      detail: "价值519  倍轻松（breo）按摩仪",
+      id: '10',
+      cardListWin: [],
+      round: 0
+    },
+    {
+      count: 1,
+      countRemain: 1,
+      everyTimeGet: 1,
+      name: "优秀奖",
+      img: img12,
+      detail: "价值299  九阳空气炸锅",
+      id: '11',
+      cardListWin: [],
+      round: 0
+    },
+    {
+      count: 1,
+      countRemain: 1,
+      everyTimeGet: 1,
+      name: "优秀奖",
+      img: img13,
+      detail: "价值299   九阳电火锅",
+      id: '12',
+      cardListWin: [],
+      round: 0
+    },
+  
   ], // 奖品列表
   headerTitle: '幸运大咖',
   currentPrize: null, // 当前抽奖的奖品

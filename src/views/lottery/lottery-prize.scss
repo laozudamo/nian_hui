@@ -1,10 +1,40 @@
 .prize-wrap {
   height: 100vh;
-  // overflow-y: auto;
+  overflow-y: auto;
   width: 10vw;
   min-width: 400px;
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
+}
+
+// .test {
+//   width   : 50px;
+//   height  : 200px;
+//   overflow: auto;
+//   float   : left;
+//   margin  : 5px;
+//   border  : none;
+//   }
+
+.prize-wrap::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 10px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+
+.prize-wrap::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  background: #535353;
+}
+
+.prize-wrap::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: #ededed;
 }
 
 .prize-list {
@@ -17,6 +47,7 @@
 }
 
 .prize-item {
+  margin-top: 20px;
   padding: 10px;
   display: flex;
   align-items: center;
