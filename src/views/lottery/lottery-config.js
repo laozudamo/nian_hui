@@ -179,7 +179,7 @@ const lotteryConfig = {
       round: 0
     }
   ], // 奖品列表
-  headerTitle: '莱沃大转盘',
+  headerTitle: '幸运大咖',
   currentPrize: null, // 当前抽奖的奖品
   colCount, rowCount, // table模式下行列数
   cardList, // 所有卡片的数据
