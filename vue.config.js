@@ -8,11 +8,6 @@ module.exports = {
             config.optimization.minimizer[0].options.terserOptions.compress.drop_debugger = false;
         }
     },
-    resolve: {
-        alias: {
-            "@": path.resolve(__dirname, 'src')
-        }
-    },
     chainWebpack: config => {
         config.plugin('html').tap(args => {
             args[0].title = '2023-2024年会';
