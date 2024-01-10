@@ -11,7 +11,7 @@ const getRandomCard = function(currentPrize) {
   // 随机抽取数据
   const selectCardList = [];
 
-  // 正式抽奖逻辑
+  // 抽奖逻辑
   for (let i = 0; i < selectCount; i++) {
     const curSelectIndex = random(0, cardListRemainAllCopy.length - 1);
     const card = cardListRemainAllCopy.splice(curSelectIndex, 1)[0];
