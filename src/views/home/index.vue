@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <img src="@/assets/b1.jpeg" height="100%" width="100%" alt="">
-    <div class="title" @click="getPrice">四川莱沃云创科技有限公司年会</div>
+    <div class="title" @click="getPrice">莱沃云创科技有限公司年会</div>
   </div>
 </template>
 
